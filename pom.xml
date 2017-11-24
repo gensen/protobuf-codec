@@ -24,7 +24,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>2.4.1</version>
+            <version>3.5.0</version>
         </dependency>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
@@ -64,9 +64,9 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         </plugins>
     </reporting>
     <distributionManagement>
-        <repository>
-            <id>git-protobuf-repo</id>
-            <url>http://github.com/sijuv/protobuf-codec/tree/master/dist/</url>
-        </repository>
+      <repository>
+        <id>bintray-repo-maven</id>
+        <url>https://api.bintray.com/maven/generalsensing/maven/protobuf-codec/;publish=1</url>
+      </repository>
     </distributionManagement>
 </project>
